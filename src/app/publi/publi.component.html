@@ -1,0 +1,12 @@
+<div class="container mt-3">
+    <div *ngFor="let publi of publis" class="card mb-3">
+        <div class="card-header">
+            <h5 class="card-title">{{ publi.title }}</h5>
+        </div>
+        <div class="card-body">
+            <p class="card-text">{{ publi.content }}</p>
+            <p class="card-text"><small class="text-muted">{{ publi.date }}</small></p>
+        </div>
+    </div>
+</div>
+
